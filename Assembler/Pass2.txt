@@ -1,0 +1,6 @@
+000000      COPY     start   0                  
+000000      FIRST    STL     2*3               172003
+000003               LDB     #2+3              692fff
+000006               lda     =X'03'            
+000009      CLOOP    +JSUB   RDREC-5           4b101035
+00000d               LDA     RDREC-LENGTH      034fcc
